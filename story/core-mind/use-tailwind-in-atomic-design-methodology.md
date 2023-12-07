@@ -7,7 +7,7 @@ Tailwind CSS has gradually become the preferred style processing solution in fro
 
 ![Atomic design](https://atomicdesign.bradfrost.com/images/content/atomic-design-process.png)
 
-Before discussing how to combine atomized components and Tailwind CSS, let's take a look at the atomized component methodology, which divides pages into the following five levels.
+Before discussing how to combine atomic components and Tailwind CSS, let's take a look at the atomic component methodology, which divides pages into the following five levels.
 1. Atoms
     
     For the definition of the atom as the smallest non-divisible component in the design system, then we should split the web page should be the corresponding html native tag with the corresponding style, that is, input/h1/button and other components, such components can not be split again, and can be used independently.
@@ -30,9 +30,9 @@ Each level is pieced together from the previous levels to form the final page. I
 
 ## Atomic Component fit with Tailwind CSS
 
-The page is made up of basic components. The atomization component methodology is not to split the page components as small as possible, but to form molecular components through atomic components and organize components, and then build pages through page templates, which is a process from small to large.
+The page is made up of basic components. The atomic component methodology is not to split the page components as small as possible, but to form molecular components through atomic components and organize components, and then build pages through page templates, which is a process from small to large.
 
-In the development methodology of atomized components, we need to clearly identify which Atomic components are, and then modify the atomic components. Tailwind CSS is just the methodology of Atomic CSS, turning the miscellaneous css styles into a single css attribute. 
+In the development methodology of atomic components, we need to clearly identify which Atomic components are, and then modify the atomic components. Tailwind CSS is just the methodology of Atomic CSS, turning the miscellaneous css styles into a single css attribute. 
 
 This solves the problem of hard-to-read html code with a lot of classnames in the code, which is to wrap atomic components and then use atomic components to compose molecular components.
 
@@ -433,7 +433,9 @@ There are also corresponding instructions in the official website, how to do the
 
 ![](../../images/use-tailwind-in-atomic-design-methodology/tailwind-practice.png)
 
-With the separation of Atomic components, the patchwork page will become intuitive and clear, which is the combination of Atomic Component and Atomic CSS, one is the atomization of logic level and the other is the atomization of style level, in this way can truly achieve the Atomic methodology.
+With the separation of Atomic components, the patchwork page will become intuitive and clear, which is the combination of Atomic Component and Atomic CSS, one is the atomic of logic level and the other is the atomic of style level, in this way can truly achieve the Atomic methodology.
+
+<hr />
 
 ### Reference
 
