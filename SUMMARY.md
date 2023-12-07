@@ -18,6 +18,7 @@
   + [magic-of-form](./story/core-mind/magic-of-form.md)
   + [wechat-mini-program-experience](./story/core-mind/wechat-mini-program-experience.md)
   + [how-to-make-design-system](./story/core-mind/how-to-make-design-system.md)
+  + [Use tailwind in atomic design methodology](./story/core-mind/use-tailwind-in-atomic-design-methodology.md)
 
 + SASS Roadmap
 
