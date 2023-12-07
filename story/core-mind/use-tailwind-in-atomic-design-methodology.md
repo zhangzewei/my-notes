@@ -1,5 +1,5 @@
-# Use tailwind in atomic design methodology 
-> author: markzzw  &nbsp;&nbsp;&nbsp;  date: 2023-12-6
+# Use tailwind by atomic design methodology 
+> author: markzzw  &nbsp;&nbsp;&nbsp;  date: 2023-12-06
 
 Tailwind CSS has gradually become the preferred style processing solution in front-end development. Its simple integration and flexible configurability make it gradually occupy a higher position in front-end development. However, with the use of Tailwind CSS, many front-end developers have also experienced discomfort. Too many classnames cause the code to look untidy, and in the case of complex styles, writing Tailwind CSS is very complicated, which is not conducive to maintenance, so can the above problems be solved by following the theory of atomic components when using Tailwind CSS?
 
