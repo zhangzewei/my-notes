@@ -23,4 +23,3 @@
 + SASS Roadmap
 
   + [number-operations](./story/sass/number-operations.md)
-  + [number-operations](./story/sass/number-operations.md)
