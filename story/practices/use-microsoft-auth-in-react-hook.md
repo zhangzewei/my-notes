@@ -21,9 +21,9 @@ npm install @azure/msal-browser
 npm install @azure/msal-react
 ```
 
-### Create a msConfige.js file
+### Create a msconfig.js file
 
-msConfige.js
+msconfig.js
 ```js
 export const msalConfig = {
     auth: {
@@ -45,7 +45,7 @@ MsAuthProvider.jsx
 import * from "react";
 import { MsalProvider } from '@azure/msal-react';
 import { PublicClientApplication } from '@azure/msal-browser';
-import { msalConfig } from './msConfige.js';
+import { msalConfig } from './msconfig.js';
 
 // create msal instance and export it for using.
 export const msalInstance = new PublicClientApplication(msalConfig);
