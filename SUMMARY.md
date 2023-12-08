@@ -23,3 +23,7 @@
 + SASS Roadmap
 
   + [number-operations](./story/sass/number-operations.md)
+
++ Project Practices
+
+  + [Microsoft OAuth with in react hook](./story/practices/use-microsoft-auth-in-react-hook.md)
