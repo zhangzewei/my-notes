@@ -215,7 +215,7 @@ export default function Radio(props: RadioProps) {
 }
 ```
 
-then we well use it like this.
+then we can use it like this.
 
 ```jsx
 function ShopingCard() {
