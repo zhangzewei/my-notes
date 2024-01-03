@@ -185,6 +185,7 @@ Here is a hook function that I write to get detail data, I use the `useEffect` t
 This is a typical fetch data hook, let's test it.
 
 **useDetailData.ts**
+
 ```js
 import { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
@@ -214,7 +215,9 @@ export default function useDetailData<DETAIL_TYPE>(
     return detail;
 }
 ```
+
 **useDetailData.test.tsx**
+
 First I write a function to mock a fetch function, because we use the `Promise` the setTtimeOut function, so we need to use `async/await`.
 
 As I noticed I use a loading status from redux store, so we also need to mock the redux, so I write the `ReduxProviderWrapper`.
@@ -277,7 +280,9 @@ it('should return the null without any dependency', async () => {
 });
 ```
 Then we can get our satisfactory test coverage report.
+
 **Test coverage**
+
 File|% Stmts|% Branch|% Funcs|% Lines|Uncovered Line 
 -|-|-|-|-|-          
 useDetailData.ts|100|100|100|100|     
@@ -290,6 +295,7 @@ How to provide router context? Using `MemoryRouter` which is provided by react-r
 For example, I test a hook using the router hook `useLocation()`, so I need to provide a router context as a wrapper for `renderHook()`.
 
 **useQuery hook**
+
 ```jsx
 import React from "react";
 import { useLocation } from "react-router-dom";
@@ -300,6 +306,7 @@ export default function useQuery() {
 }
 ```
 **useQuery.test.tsx**
+
 Through the `initialEntries` props to mock the route currently used.
 
 ```jsx
@@ -335,6 +342,7 @@ Sometimes we should mock some functions to return the result as we need so that 
 For this `vitest` provide the `vi.mock('path/of/import/function')` & `vi.mocked().mockReturnValue()`.
 
 **usePosts.ts**
+
 In this hook, the request function `getPost` is a fetch function imported from the request file, but when we test it we don't want to get the real data back, we need to use mock data so that we can control the `expct` statement.
 ```js
 import { useState, useEffect } from "react";
@@ -359,6 +367,7 @@ export default function usePosts (query: string) {
 }
 ```
 **usePost.test.ts**
+
 First use `vi.mock()` to mock the import function, this should do outside the `describe`, this is a requirement from `vitest`.
 
 Then use `vi.mocked(importFunction).mockReturnValue(mockValue)` to mock the function and its return value.
