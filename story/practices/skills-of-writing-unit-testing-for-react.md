@@ -1,6 +1,9 @@
 # Skills of writing unit test for react
 > Author: markzzw | Date: 2023-12-30
 
+> code repo: https://github.com/zhangzewei/Skills-of-writing-unit-test-for-react-demo-code
+
+
 After writing some unit tests for react project, I summarised some skills of writing unit tests for react.
 
 ## Tech stack

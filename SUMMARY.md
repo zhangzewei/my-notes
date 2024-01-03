@@ -27,3 +27,4 @@
 + Project Practices
 
   + [Microsoft OAuth with in react hook](./story/practices/use-microsoft-auth-in-react-hook.md)
+  + [skills of writing unit testing for react](./story/practices/skills-of-writing-unit-testing-for-react.md)
