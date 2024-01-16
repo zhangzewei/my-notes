@@ -76,7 +76,7 @@ import { useState } from "react";
 import { TodoContext } from "./TodoProvider";
 export default function AddTodo() {
   // 通过 useContext 拿到 setTodos 函数
-  const { setTodos } = useContext(TodoContext);
+  const { todos, setTodos } = useContext(TodoContext);
   const [inputValue, setInputValue] = useState("");
 
   const handleInput = (event) => {
@@ -86,7 +86,7 @@ export default function AddTodo() {
   // 修改 addTodo 函数
   const addTodo = () => {
     if (inputValue) {
-        const newList = todoList.concat({
+        const newList = todos.concat({
             text: inputValue,
             status: "active",
         });
@@ -131,13 +131,13 @@ export default function Todos() {
 
   const handleDone = (item) => {
     if (item.status === "active") {
-      const newList = todoList.map((item, index) => ({
+      const newList = todos.map((item, index) => ({
         ...item,
         status: idx === index ? "done" : item.status,
       }));
       setTodos(newList);
     } else {
-      const newList = todoList.map((item, index) => ({
+      const newList = todos.map((item, index) => ({
         ...item,
         status: idx === index ? "active" : item.status,
       }));
