@@ -19,6 +19,7 @@
   + [wechat-mini-program-experience](./story/core-mind/wechat-mini-program-experience.md)
   + [how-to-make-design-system](./story/core-mind/how-to-make-design-system.md)
   + [Use tailwind by atomic design methodology](./story/core-mind/use-tailwind-in-atomic-design-methodology.md)
+  + [Pre-commit with husky & lint-staged](./story/core-mind/frontend-precommit-check.md)
 
 + SASS Roadmap
 
