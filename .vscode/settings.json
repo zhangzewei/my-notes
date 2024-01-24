@@ -1,0 +1,12 @@
+{
+    "grammarly.selectors": [
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "story/core-mind/frontend-precommit-check.md"
+        }
+    ],
+    "cSpell.words": [
+        "unconvenience"
+    ]
+}
