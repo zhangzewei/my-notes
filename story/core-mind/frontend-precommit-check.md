@@ -1,5 +1,5 @@
 # Pre-commit with husky & lint-staged
-In the most modern projects, will do some scripts to keep the team's code style uniformly, such as prettier, es-lint, style-lint and unit test and so on. Those scripts are individual, we only can run them one by one in the terminal before we commit the code, which is inconvenient.
+In the most modern projects, will do some scripts to keep the team's code style uniform, such as prettier, es-lint, style-lint and unit test and so on. Those scripts are individual, we only can run them one by one in the terminal before we commit the code, which is inconvenient.
 
 So let's import the husky & lint-staged to help us run those scripts at the same time automatically.
 
